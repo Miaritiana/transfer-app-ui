@@ -1,5 +1,12 @@
+:root {
+  background-image: url(../public/background.jpg);
+}
+
 .App {
   position: relative;
+  background-color: rgb(0, 0, 0,0.9);
+  padding-bottom: 6vh;
+  padding-top: 1vh;
 }
 
 h4 {
@@ -56,4 +63,8 @@ h4 {
   margin-right: 5%;
   border-top-left-radius: 25px;
   border-bottom-right-radius: 25px;
+}
+
+p {
+  color: white;
 }
